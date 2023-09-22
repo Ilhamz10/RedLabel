@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+body {
+	background: #000;
+	color: red;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button {
+	border: none;
+	background: none;
+}
+
+header {
+	border-bottom: 1px solid white;
+	padding: 20px 0;
+}
+
+main {
+	padding: 40px 0;
+}
+
+.header-main h1 {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.header-main p {
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.header-main img {
+	display: block;
+	width: 70%;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.submit-btn {
+	padding: 15px 0;
+	background: #34c658;
+	color: white;
+	width: 100%;
+	font-size: 1.2rem;
+	border-radius: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+
+.flex-info{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 30px;
+    height: 350px;
+    margin-top: 40px;
+}
+
+.border-r{
+    border-right: 2px solid white;
+    padding-right: 30px;
+}
+
+.info-block{
+    font-size: 1.5rem;
+}
+
+.ai-end{
+    align-self: flex-end;
+}
+
+.provider-section{
+    padding: 40px 0;
+}
+
+.provider-section h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.provider-section ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.provider-section ul li{
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.provider-section ul .icon{
+    font-size: 40px;
+    text-align: center;
+}
+
+.provider-section ul .icon img{
+    width: 40px;
+}
+
+footer{
+    text-align: center;
+    opacity: 0.8;
+    padding: 30px 0;
+}
